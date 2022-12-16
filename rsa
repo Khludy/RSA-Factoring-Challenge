@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
+#is a challenge
 
 check_factor()
 {
 	if [ $# -ne 3 ];
-        then
+	then
                 args=("$@")
                 count=0
                 num2=1
